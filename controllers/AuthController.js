@@ -93,3 +93,7 @@ exports.register = async (req, res, next) => {
 
   //console.log(firstName);
 };
+
+exports.test = async (req, res) => {
+  res.status(200).json({ message: "testing testing" });
+};

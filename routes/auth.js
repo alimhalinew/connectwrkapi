@@ -6,6 +6,8 @@ const validationRule = require("../middleware/Validation");
 
 router.post("/login", AuthController.login);
 router.post("/register", validationRule.registeration, AuthController.register);
+router.get("/test", AuthController.test);
+
 router.use(ErrorHandler);
 
 module.exports = router;
