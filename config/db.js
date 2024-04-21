@@ -1,9 +1,9 @@
 const config = require("../config/config.json");
 const { Sequelize } = require("sequelize");
 
-const dbName = "connectwrk";
-const dbUser = "root";
-const dbPass = "root";
+const dbName = "nemsvbrkuj";
+const dbUser = "nemsvbrkuj";
+const dbPass = "D9qej3EDcn";
 
 const sequelize = new Sequelize(dbName, dbUser, dbPass, {
   host: "localhost",
